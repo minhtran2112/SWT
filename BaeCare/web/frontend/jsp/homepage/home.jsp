@@ -40,7 +40,7 @@
                     <li class="user-profile header-notification">
                         <div class="dropdown-primary dropdown">
                             <div class="dropdown-toggle" data-toggle="dropdown">
-                                <img src="${requestScope.account.photo}" style="width: 50px" class="img-radius" alt="User-Image">
+                                <img src="../${requestScope.account.photo}" style="width: 50px" class="img-radius" alt="User-Image">
                                 <span>${requestScope.account.name}</span>
 
                             </div>

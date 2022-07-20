@@ -137,7 +137,7 @@
                             <div class="dropdown-primary dropdown">
                                 <div class="dropdown-toggle" data-toggle="dropdown">
                                     <img src="${requestScope.account.photo}" style="width: 50px" class="img-radius" alt="User-Image">
-                                    <span>${requestScope.account.name}</span>
+                                    <span>${requestScope.acct.name}</span>
 
                                 </div>
                                 <ul class="show-notification profile-notification dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">

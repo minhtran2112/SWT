@@ -35,7 +35,7 @@ public class DeleteFeedback extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        int fid = Integer.parseInt(request.getParameter("id"));
+        int fid = Integer.parseInt(request.getParameter("fid"));
         FeedbackDao fd = new FeedbackDao();
         fd.deteleFB(fid);
         response.sendRedirect("list");

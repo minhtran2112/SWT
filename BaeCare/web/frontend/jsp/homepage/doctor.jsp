@@ -113,7 +113,7 @@
                         <select class="form-select p-2" name="tId" id="doctorByS" onchange="form.submit()">
                             <option value="0">Choose Doctor</option>
                             <c:forEach items="${requestScope.serviceTypeList}" var="st">
-                                <option ${(st.t_id == requestScope.tId)?"selected=\"selected\"":"" } value="${st.t_id}">${st.t_name}</option>
+                                <option ${(st.t_id == requestScope.tId)?"selected=\"selected\"":"" } value="${st.t_id}"></option>
                             </c:forEach>
                         </select>
                     </form>

@@ -84,7 +84,7 @@ public class Registration extends HttpServlet {
             String name = raw_fullName;
             String email = raw_email;
             String pass = raw_pass;
-            String mobile = raw_mobile;
+            String mobile = raw_mobile+"        ";
 
             AccountDAO dAc = new AccountDAO();
             //check email is exist
