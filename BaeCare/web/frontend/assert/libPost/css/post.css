@@ -1,0 +1,19 @@
+
+.post_mai span
+{
+    border-style: solid;
+    border-width: 1px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #00bcd4;
+    padding: 4px;
+}
+
+.post_mai a
+{
+   border-style: solid;
+   border-width: 1px;
+   margin-left: 10px;
+   margin-top: 4px;
+   padding: 4px;
+}
